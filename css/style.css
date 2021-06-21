@@ -1,0 +1,54 @@
+html,
+body {
+    height: 100%;
+}
+
+.frente {
+    height: 100%;
+    background: url('https://images.unsplash.com/photo-1613563696309-c2a4db7e1f36?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card:hover {
+    margin-top: -5px;
+    margin-bottom: 5px;
+    transition: all 0.1s;
+}
+
+#agendar {
+    background-color: #ffffff8f;
+    background-image: radial-gradient(circle, rgb(20, 18, 18) 1px, rgba(42, 187, 255, 0) 1px);
+    background-size: 1rem 1rem;
+}
+
+#pButton {
+    float: left;
+}
+
+#timeline {
+    width: 90%;
+    height: 2px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#pButton {
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+#playhead {
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-top: -3px;
+    background: black;
+    cursor: pointer;
+}
